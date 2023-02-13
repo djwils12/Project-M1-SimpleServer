@@ -1,47 +1,57 @@
 [
     {
         "id": 0,
-        "courseName": "IFT 101",
-        "image": "📚",
-        "from": "Information Technology",
-        "instructor": "David Alderman, Tatiana Walsh",
-        "credits": "4",
-        "description": "Introduction to Information Technology"
+        "customerName": "David Wilson",
+        "phoneNumber": "(123)555-1234",
+        "address": "123 Main Street",
+        "loanAmount": 150000,
+        "interest": 0.06,
+        "loanTermYears": 30,
+        "loanType": "Mortgage",
+        "description": "Basic Home Loan"
     },
     {
         "id": 1,
-        "courseName": "INT 601",
-        "image": "🕉",
-        "from": "Management",
-        "instructor": "David Alderman, Tatiana Walsh",
-        "credits": "3",
-        "description": "International Culture"
+        "customerName": "Jim West",
+        "phoneNumber": "(455)525-2323",
+        "address": "4545 Smith Ave",
+        "loanAmount": 200000,
+        "interest": 0.03,
+        "loanTermYears": 30,
+        "loanType": "Mortgage",
+        "description": "Basic Home Loan"
       },
       {
         "id": 2,
-        "courseName": "IFT 201",
-        "image": "📯",
-        "from": "Information Technology",
-        "instructor": "David Alderman, Tatiana Walsh",
-        "credits": "3",
-        "description": "Virtualization"
+        "customerName": "Tyler Durden",
+        "phoneNumber": "(277)444-8888",
+        "address": "757 Abandoned Pkwy",
+        "loanAmount": 250000,
+        "interest": 0.06,
+        "loanTermYears": 10,
+        "loanType": "Small Business Loan",
+        "description": "Business Loan for Soap Company"
       },
       {
         "id": 3,
-        "courseName": "ART 300",
-        "image": "😱",
-        "from": "Arts",
-        "instructor": "David Alderman, Tatiana Walsh",
-        "credits": "3",
-        "description": "Virtualization"
+        "customerName": "Tim Jacobson",
+        "phoneNumber": "(972)562-1122",
+        "address": "4505 Washington Dr",
+        "loanAmount": 100000,
+        "interest": 0.02,
+        "loanTermYears": 5,
+        "loanType": "401k Loan",
+        "description": "Loan from 401k"
       },
       {
         "id": 4,
-        "course": "INC 401",
-        "image": "🐇",
-        "from": "Veterinary  Science",
-        "instructor": "David Alderman, Tatiana Walsh",
-        "credits": "3",
-        "description": "Animal Science"
+        "customerName": "Arnold Palmer",
+        "phoneNumber": "(888)469-4896",
+        "address": "1 First Way",
+        "loanAmount": 500000,
+        "interest": 0.06,
+        "loanTermYears": 10,
+        "loanType": "Small Business Loan",
+        "description": "Business Loan for Auto Dealership"
       }
 ]

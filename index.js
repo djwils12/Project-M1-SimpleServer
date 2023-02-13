@@ -50,10 +50,15 @@ const server = httpServer.createServer( (req, res) =>{// call back function
             });
             const course = dataObj[Number(query.id)];// convert string to numeric value
             const strCourseName = JSON.stringify(course);
-            const courseHTML = replaceTemplate(templateHTMLCourse, course);// function that will replace the course values in the HTML
+            let courseHTML = replaceTemplate(templateHTMLCourse, course);// function that will replace the course values in the HTML
             //   res.end(` We received our first request from the client at resource ${urlParameter.pathname.toLowerCase()} with query parameter ${urlParameter.query.id}
             //   ${JSON.stringify(course)}// convert object back to string
             //   `)
+
+            let computed = Number(course.loanAmount) * (1 + Number(course.interest)) ** Number(course.loanTermYears);
+            computed = Math.round(computed).toFixed(2);
+            courseHTML = courseHTML.replace(/%COMPUTED%/g, computed);
+
             res.end(courseHTML);
         }
     }

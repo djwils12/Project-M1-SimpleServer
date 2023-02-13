@@ -113,7 +113,7 @@
 
   <body>
     <div class="container">
-      <h1>📚 University Course List 📚</h1>
+      <h1>📚 Loan Calculator 📚</h1>
       <figure class="course">
         <a href="/" class="course__back">
           <span class="emoji-left">👈</span>Back
@@ -121,19 +121,36 @@
   
         <h2 class="course__name">{%NAME%}</h2>
         <div class="course__info">
-          <p><span class="emoji-left">🗞</span>Major in: {%FROM%}</p>
+          <p><span class="emoji-left">🗞</span>Phone Number: {%PHONE%}</p>
         </div>
         <div class="course__info">
-             <span><class="emoji-left">🎓</span>Instructors: {%INSTRUCTOR%}
+             <span><class="emoji-left">🎓</span>Address: {%ADDRESS%}
         </div>
 
         <a href="#" class="course__info">
-          <span> 🧮 Credits = {%CREDITS%}</span>
+          <span> 🧮 Loan Amount: {%LOANAMOUNT%}</span>
         </a>
-  
+        
         <p class="course__info">
-          🏬 Department: {%DESCRIPTION%}
+          🏬 Interest: {%INTEREST%}
         </p>
+
+        <p class="course__info">
+          🏬 Loan Term (Years): {%YEARS%}
+        </p>
+
+        <p class="course__info">
+          🏬 Loan Type: {%TYPE%}
+        </p>
+
+        <p class="course__info">
+          🏬 Description: {%DESCRIPTION%}
+        </p>
+
+        <p class="course__info">
+          🏬 Total computed amount owed: %COMPUTED%
+        </p>
+
       </figure>
     </div>
   </body>
